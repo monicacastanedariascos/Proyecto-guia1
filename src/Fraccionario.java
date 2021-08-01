@@ -1,12 +1,12 @@
 public class Fraccionario {
     private int numerador;
     private int denominador;
-
+//Este es el constructor
     public Fraccionario(int numerador, int denominador) {
         this.numerador = numerador;
         this.denominador = denominador;
     }
-
+//Este es el constructor por defecto
     public Fraccionario() {
     }
 

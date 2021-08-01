@@ -9,6 +9,8 @@ public class main {
         System.out.println(x);
         Fraccionario w=new Fraccionario(1,2);
         System.out.println(w);
+        Fecha f=new Fecha(17,06,1989);
+        System.out.println(f);
 
         /*System.out.println("Hola esto esta raro");
         System.out.println("yo soy capaz");
