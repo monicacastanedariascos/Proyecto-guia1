@@ -1,9 +1,9 @@
 public class Fecha {
     private int dia;
-    private int mes;
+    private String mes;
     private int anio;
 
-    public Fecha(int dia, int mes, int anio) {
+    public Fecha(int dia, String mes, int anio) {
         this.dia = dia;
         this.mes = mes;
         this.anio = anio;
@@ -13,7 +13,7 @@ public class Fecha {
         return dia;
     }
 
-    public int getMes() {
+    public String getMes() {
         return mes;
     }
 
@@ -25,7 +25,7 @@ public class Fecha {
         this.dia = dia;
     }
 
-    public void setMes(int mes) {
+    public void setMes(String mes) {
         this.mes = mes;
     }
 
